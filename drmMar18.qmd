@@ -1,0 +1,278 @@
+---
+title: "Data Review Meeting"
+author: "Dongweon Shin"
+date: "March 18 2025"
+
+
+
+format: 
+  revealjs:
+    css: styles.css
+    mathjax: 
+      url: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+      macros:
+        "\\eulerNum": "{\\mathit{#1}}"
+        
+
+project:
+  type: website
+  output-dir: docs
+
+---
+## Recap
+
+![](SelectionCriteria.png)
+
+# Results
+
+
+
+## Step 1, Incision (1) - Independent
+
+- Maximum diff : 291 frames, which was reasonable ![](imgs/phase-01i.png){width=40px}
+- Good
+
+```{R}
+
+library(DT)
+library(readxl)
+
+df <- read_excel("/Users/dshin/Dropbox/Lancet/cat101/finishing/phase1_predictions_f.xlsx")
+datatable(df,
+    filter = "top",
+    options = list(
+        scrollY = "300px",   # Set a max height with vertical scrolling
+        pageLength = 5,      # Show only 5 rows per page
+        lengthMenu = c(5, 10, 20, 50),  # Dropdown to adjust rows displayed
+        autoWidth = FALSE
+    )
+)
+```
+
+
+## Step 8, IOL insertion (2) - Independent
+
+- Maximum diff : 371 frames, which was reasonable ![](imgs/phase-09i.png){width=40px}
+- Good
+```{R}
+
+library(DT)
+library(readxl)
+
+df <- read_excel("/Users/dshin/Dropbox/Lancet/cat101/finishing/phase8_predictions_f.xlsx")
+datatable(df,
+    filter = "top",
+    options = list(
+        scrollY = "300px",   # Set a max height with vertical scrolling
+        pageLength = 5,      # Show only 5 rows per page
+        lengthMenu = c(5, 10, 20, 50),  # Dropdown to adjust rows displayed
+        autoWidth = FALSE
+    )
+)
+```
+## Step 2, Viscous agent injection1 (3)
+
+- About 10 cases, Giving odd values ![](imgs/phase-02v.png){width=40px}
+- 830, 292, 807, 295, 270, 278, ..
+```{R}
+
+library(DT)
+library(readxl)
+
+df <- read_excel("/Users/dshin/Dropbox/Lancet/cat101/finishing/phase2_predictions_1t.xlsx")
+datatable(df,
+    filter = "top",
+    options = list(
+        scrollY = "300px",   # Set a max height with vertical scrolling
+        pageLength = 5,      # Show only 5 rows per page
+        lengthMenu = c(5, 10, 20, 50),  # Dropdown to adjust rows displayed
+        autoWidth = FALSE
+    )
+)
+
+```
+
+## Step 3, Rhexis (4)
+- Currently missing values for 4 cases: 292, 807, 922, 933
+- About 10 cases ![rhexis](imgs/phase-03r.png){width=40px}
+
+
+
+```{R}
+
+library(DT)
+library(readxl)
+
+df <- read_excel("/Users/dshin/Dropbox/Lancet/cat101/finishing/phase3_predictions_1t.xlsx")
+datatable(df,
+    filter = "top",
+    options = list(
+        scrollY = "300px",   # Set a max height with vertical scrolling
+        pageLength = 5,      # Show only 5 rows per page
+        lengthMenu = c(5, 10, 20, 50),  # Dropdown to adjust rows displayed
+        autoWidth = FALSE
+    )
+)
+
+```
+
+## Step 4, Hydrodissection (5)
+- Currently missing values for 4 cases: 292, 807, 922, 933
+- About 7 cases showing odd value ![Hydro](imgs/phase-04h.png){width=40px}
+
+```{R}
+
+library(DT)
+library(readxl)
+
+df <- read_excel("/Users/dshin/Dropbox/Lancet/cat101/finishing/phase4_predictions_t1.xlsx")
+datatable(df,
+    filter = "top",
+    options = list(
+        scrollY = "300px",   # Set a max height with vertical scrolling
+        pageLength = 5,      # Show only 5 rows per page
+        lengthMenu = c(5, 10, 20, 50),  # Dropdown to adjust rows displayed
+        autoWidth = FALSE
+    )
+)
+
+```
+
+
+## Step 5, Phaco (6)
+- Currently missing values for 5 cases: 278, 292, 295, 807, 830
+- About 10 cases showing odd value
+![phaco](imgs/phase-05p.png){width=40px}
+```{R}
+
+library(DT)
+library(readxl)
+
+df <- read_excel("/Users/dshin/Dropbox/Lancet/cat101/finishing/phase5_predictions_1t.xlsx")
+datatable(df,
+    filter = "top",
+    options = list(
+        scrollY = "300px",   # Set a max height with vertical scrolling
+        pageLength = 5,      # Show only 5 rows per page
+        lengthMenu = c(5, 10, 20, 50),  # Dropdown to adjust rows displayed
+        autoWidth = FALSE
+    )
+)
+
+```
+
+## Step 9, Viscous agent removal (7)
+
+- About 10 cases showing odd values
+![var](imgs/phase-10var.png){width=40px}
+```{R}
+
+library(DT)
+library(readxl)
+
+df <- read_excel("/Users/dshin/Dropbox/Lancet/cat101/finishing/phase9_predictions_1t.xlsx")
+datatable(df,
+    filter = "top",
+    options = list(
+        scrollY = "300px",   # Set a max height with vertical scrolling
+        pageLength = 5,      # Show only 5 rows per page
+        lengthMenu = c(5, 10, 20, 50),  # Dropdown to adjust rows displayed
+        autoWidth = FALSE
+    )
+)
+
+```
+
+
+## Step 10, Tonifying (8)
+- About 50 cases showing odd values
+- Probably d/t error in Phase9
+![tony](imgs/phase-11p.png){width=40px}
+
+```{R}
+
+library(DT)
+library(readxl)
+
+df <- read_excel("/Users/dshin/Dropbox/Lancet/cat101/finishing/phase10_predictions_1t.xlsx")
+datatable(df,
+    filter = "top",
+    options = list(
+        scrollY = "300px",   # Set a max height with vertical scrolling
+        pageLength = 5,      # Show only 5 rows per page
+        lengthMenu = c(5, 10, 20, 50),  # Dropdown to adjust rows displayed
+        autoWidth = FALSE
+    )
+)
+
+```
+
+
+## Leftover
+- Phase 6. Irrigation and aspiration ()
+![](imgs/phase-06i.png){width=40px}
+- Phase 7. Capsule polishing ()
+![](imgs/phase-07c.png){width=40px}
+- Phase 2.2. Viscous agent injection II ()
+![](imgs/phase-08_2v.png){width=40px}
+
+
+
+## Summary
+
+```{R}
+library(DT)
+library(readxl)
+
+# Data for the table
+step_data <- data.frame(
+  Step = c("Step 1", "Step 8", "Step 2", "Step 3", 
+  "Step 4", "Step 5", "Step 9", "Step 10",
+  "Step 6","Step 7","Step 2.2"),
+  Description1 = c(
+    "Incision", 
+    "IOL insertion", 
+    "VA injection1", 
+    "Rhexis", 
+    "Hydrodissection", 
+    "Phaco", 
+    "VA removal", 
+    "Tonifying",
+    "I/A","Polishing","VA2"
+  ),
+  Description2 = c(
+    "Max diff : 291 frames, Good", 
+    "Max diff : 371 frames, Good", 
+    "About 10 cases of odd values", 
+    "About 10 cases of odd values", 
+    "About 7 cases showing odd value", 
+    "About 10 cases showing odd value", 
+    "About 10 cases showing odd values", 
+    "About 50 cases showing odd values",
+    "Depend on Step 5",
+    "Depend on Step 5",
+    "Depend on Step 6"
+  )
+)
+
+# Generate interactive table using DT
+datatable(step_data, 
+          options = list(
+            scrollY = "300px",   # Set max height with vertical scrolling
+            pageLength = 6,      # Show only 5 rows per page
+            lengthMenu = c(6, 12),  # Dropdown to adjust rows displayed
+            autoWidth = FALSE
+          ))
+
+```
+
+## Next Step
+- find cause of failure & update
+
+
+
+
+
+
+
+
