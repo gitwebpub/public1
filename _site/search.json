@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "drmMar18.html#recap",
+    "href": "drmMar18.html#recap",
+    "title": "Data Review Meeting",
+    "section": "Recap",
+    "text": "Recap"
+  },
+  {
+    "objectID": "drmMar18.html#step-1-incision-1---independent",
+    "href": "drmMar18.html#step-1-incision-1---independent",
+    "title": "Data Review Meeting",
+    "section": "Step 1, Incision (1) - Independent",
+    "text": "Step 1, Incision (1) - Independent\n\nMaximum diff : 291 frames, which was reasonable \nGood"
+  },
+  {
+    "objectID": "drmMar18.html#step-8-iol-insertion-2---independent",
+    "href": "drmMar18.html#step-8-iol-insertion-2---independent",
+    "title": "Data Review Meeting",
+    "section": "Step 8, IOL insertion (2) - Independent",
+    "text": "Step 8, IOL insertion (2) - Independent\n\nMaximum diff : 371 frames, which was reasonable \nGood"
+  },
+  {
+    "objectID": "drmMar18.html#step-2-viscous-agent-injection1-3",
+    "href": "drmMar18.html#step-2-viscous-agent-injection1-3",
+    "title": "Data Review Meeting",
+    "section": "Step 2, Viscous agent injection1 (3)",
+    "text": "Step 2, Viscous agent injection1 (3)\n\nAbout 10 cases, Giving odd values \n830, 292, 807, 295, 270, 278, .."
+  },
+  {
+    "objectID": "drmMar18.html#step-3-rhexis-4",
+    "href": "drmMar18.html#step-3-rhexis-4",
+    "title": "Data Review Meeting",
+    "section": "Step 3, Rhexis (4)",
+    "text": "Step 3, Rhexis (4)\n\nCurrently missing values for 4 cases: 292, 807, 922, 933\nAbout 10 cases"
+  },
+  {
+    "objectID": "drmMar18.html#step-4-hydrodissection-5",
+    "href": "drmMar18.html#step-4-hydrodissection-5",
+    "title": "Data Review Meeting",
+    "section": "Step 4, Hydrodissection (5)",
+    "text": "Step 4, Hydrodissection (5)\n\nCurrently missing values for 4 cases: 292, 807, 922, 933\nAbout 7 cases showing odd value"
+  },
+  {
+    "objectID": "drmMar18.html#step-5-phaco-6",
+    "href": "drmMar18.html#step-5-phaco-6",
+    "title": "Data Review Meeting",
+    "section": "Step 5, Phaco (6)",
+    "text": "Step 5, Phaco (6)\n\nCurrently missing values for 5 cases: 278, 292, 295, 807, 830\nAbout 10 cases showing odd value"
+  },
+  {
+    "objectID": "drmMar18.html#step-9-viscous-agent-removal-7",
+    "href": "drmMar18.html#step-9-viscous-agent-removal-7",
+    "title": "Data Review Meeting",
+    "section": "Step 9, Viscous agent removal (7)",
+    "text": "Step 9, Viscous agent removal (7)\n\nAbout 10 cases showing odd values"
+  },
+  {
+    "objectID": "drmMar18.html#step-10-tonifying-8",
+    "href": "drmMar18.html#step-10-tonifying-8",
+    "title": "Data Review Meeting",
+    "section": "Step 10, Tonifying (8)",
+    "text": "Step 10, Tonifying (8)\n\nAbout 50 cases showing odd values\nProbably d/t error in Phase9"
+  },
+  {
+    "objectID": "drmMar18.html#leftover",
+    "href": "drmMar18.html#leftover",
+    "title": "Data Review Meeting",
+    "section": "Leftover",
+    "text": "Leftover\n\nPhase 6. Irrigation and aspiration () \nPhase 7. Capsule polishing () \nPhase 2.2. Viscous agent injection II ()"
+  },
+  {
+    "objectID": "drmMar18.html#summary",
+    "href": "drmMar18.html#summary",
+    "title": "Data Review Meeting",
+    "section": "Summary",
+    "text": "Summary"
+  },
+  {
+    "objectID": "drmMar18.html#next-step",
+    "href": "drmMar18.html#next-step",
+    "title": "Data Review Meeting",
+    "section": "Next Step",
+    "text": "Next Step\n\nfind cause of failure & update"
+  }
+]
